@@ -1,6 +1,8 @@
 # 14/03/26
 # Tráfego padrão
 
+- Ferramenta: Wireshark
+
 - Hoje eu pratiquei analisar um pcap do site [https://wiki.wireshark.org/SampleCaptures#sample-captures]
   para melhorar meu raciocínio em relação a cominucação de dispositivos entre si.
   
@@ -10,7 +12,9 @@
       - Flags da comunicação
       - 1° contato com filtros e tráfego externo.
 
-  - Se você quiser usar o mesmo pcap que eu, aqui está o link dele(Você precisa baixar o pcap):
+  - Se você quiser usar o mesmo pcap que eu, aqui está o link dele
+     (Você precisa baixar e abrir ele no Wireshark):
+    
      - https://wiki.wireshark.org/uploads/27707187aeb30df68e70c8fb9d614981/http.cap
 
   - DESAFIO-PRA-VOCÊ(Se for baixar o pcap):
