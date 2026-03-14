@@ -25,7 +25,7 @@
      - Qual host é um SO windows?
      - Tem retransmissão? se sim, qual o significado dela?
        
-        - [!] Desafio pra dar sentido a sua análise de pcap.
+  - [!] Desafio pra dar sentido a sua análise de pcap.
 
     
         
