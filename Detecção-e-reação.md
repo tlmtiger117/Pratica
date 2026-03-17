@@ -8,3 +8,10 @@
      - Nesse caso, os comandos que eu utilizei, 1° logava quem fez o scan(host específico) e depois reagia(RST do firewall).
 
 - É algo simples, mas pra mim está sendo uma experiência no mínimo interessante(pensar como atacante,SOC e ADM de firewall).
+
+- Links para os repositórios mencionados:
+  
+   - Nmap: [https://github.com/tlmtiger117/Nmap-Network-Mapper-]
+   - Wireshark: [https://github.com/tlmtiger117/Wireshark-Sniffers-de-Rede]
+   - Firewall(iptables): [https://github.com/tlmtiger117/Firewall]
+   
