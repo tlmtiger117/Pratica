@@ -13,8 +13,7 @@
   
 
 - Comando utilizado:
-   - sudo iptables -A INPUT -p tcp --tcp-flags SYN,RST SYN,RST -m recent --set -j LOG --log-prefix "(TENT-CONEXAO)"
-     
+   - sudo iptables -A INPUT -p tcp --tcp-flags SYN,RST SYN,RST -m recent --set -j LOG --log-prefix "( TENT-CONEXAO )"                   
    - Eu diria que a parte mais importante e a das "--tcp-flags", pois é lá que o kernel decide o tipo de pacote a ser
      analisado + analisar pacotes expecíficos juntos(nesse caso, foi o SYN,RST SYN,RST) que basicamente diz:
      "analisar os pacotes SYN e RST separadamente, depois analisar o SYN e o RST juntos" (isso cria a nossa regra).
