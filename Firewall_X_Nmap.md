@@ -15,16 +15,16 @@
 - Comando utilizado:
    - sudo iptables -A INPUT -p tcp --tcp-flags SYN,RST SYN,RST -m recent --set -j LOG --log-prefix "(AVISO)"
      
-   - Eu diria que a parte mais importante e a das "--tcp-flags", pois é lá que o kernel decide o tipo de pacote a ser
-     analisado + analisar pacotes expecíficos juntos(nesse caso, foi o SYN,RST SYN,RST) que basicamente diz:
+   - Eu diria que a parte mais importante e a "--tcp-flags", pois é lá que o kernel decide o tipo de pacote a ser
+     analisado + analisar pacotes expecíficos juntos (nesse caso, foi o SYN,RST SYN,RST) que basicamente diz:
      "analisar os pacotes SYN e RST separadamente, depois analisar o SYN e o RST juntos" (isso cria a nossa regra).
 
 
 - Repositórios mencionados:
 
-- Nmap: [https://github.com/tlmtiger117/Nmap-Network-Mapper-]
-- Wireshark: [https://github.com/tlmtiger117/Wireshark-Sniffers-de-Rede]
-- ipyables(firewall): [https://github.com/tlmtiger117/Firewall/blob/main/Flags_Firewall.md]
+   - Nmap: [https://github.com/tlmtiger117/Nmap-Network-Mapper-]
+   - Wireshark: [https://github.com/tlmtiger117/Wireshark-Sniffers-de-Rede]
+   - ipyables(firewall): [https://github.com/tlmtiger117/Firewall/blob/main/Flags_Firewall.md]
 
 
 
