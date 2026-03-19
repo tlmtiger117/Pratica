@@ -24,7 +24,7 @@
 
    - Nmap: [https://github.com/tlmtiger117/Nmap-Network-Mapper-]
    - Wireshark: [https://github.com/tlmtiger117/Wireshark-Sniffers-de-Rede]
-   - ipyables(firewall): [https://github.com/tlmtiger117/Firewall/blob/main/Flags_Firewall.md]
+   - iptables(firewall): [https://github.com/tlmtiger117/Firewall/blob/main/Flags_Firewall.md]
 
 
 
