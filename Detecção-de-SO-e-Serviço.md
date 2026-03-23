@@ -15,6 +15,12 @@
    
    - -PR: ARP-ping, utiliza pacotes arp no método broatcast para enviar uma pergunta geral para a rede e receber uma resposta
           única do host perguntado (unicast)
+
+   - 192.168.1.1-100: função de scanear um range expecífico de ips, ex:
+     
+        (começa no 1) (termina no host 100)
+      - 192.168.1.1-100
+        
    
    - -Pn: Sem verificação por ping. Util quando já se saba o estado do host ou quando o icmp está bloqueado por firewall
    
