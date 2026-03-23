@@ -23,11 +23,14 @@
         
    
    - -Pn: Sem verificação por ping. Util quando já se saba o estado do host ou quando o icmp está bloqueado por firewall
+
    
    - -sS: Half-open, conexão entre aberta, encerra a probe com RST("encerrando tentativa de conexão imediatamente")
    
    - -n: Sem resolução de domínio(pedir o nome de um site(ou o inverso)."ex: 'site.com' = 200.234.225.198"
-   
+ 
+   - --scan-delay: Define o delay entre cado porbe enviada(pacote de teste de reação).SYN,RST,IP,icmp...
+   - 
    - -O: OS-detection, detecão de Sistema operacional. Scaneia várias portas específicas para determinar o possível SO do host.
          [!] Demora muito se utilizar um delay ALTO no scan. Recomendo de 3 a 5 segundos de delay por probe
      
@@ -56,10 +59,4 @@
 
  
      
-
-
-  
-   
-      .--scan-delay: Define o delay entre cado porbe enviada(pacote de teste de reação).SYN,RST,IP,icmp...
-   
    
