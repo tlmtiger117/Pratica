@@ -38,11 +38,11 @@
      
       - 1° Cria um novo socket(conector), usado para estabelecer conexão com o servidor.
       - 2° Faz um pedido(Request) ao server, pedindo para se conectar a ele.
-      - 3° Resebe a resposta do servidor(Call-Back),"chamada de retorno", aceita ou não.
-      - 4° O Nmap manda uma probe TCP com pacote Null para testar a reação do server.
-      - 4° Se o server aceitar/receber o null do Nmap, ele manda para o cleinte seu header:
-           headers: Cabeçalho, informações indispensáveis/principais dos serviços(versão,modificação,programa...)
-      - 5° O Nmap então recebe o CALL-BACK(resposta do server), lê o que o server mandou(cabeçalhos) e deleta seu próprio socket.
+      - 3° handler: código do nmap que processar uma resposta de um serviço execífico do server alvo.
+      - 4° Recebe a resposta do servidor(Call-Back),"chamada de retorno", aceitou ou não.
+      - 5° O Nmap manda uma probe TCP com pacote Null para testar a reação do server(se tá recebendo o pacote).
+      - 6° Se o server aceitar/receber o pacote null do Nmap, ele manda para o nmap processar a resposta do server:
+      - 7° O Nmap então recebe o CALL-BACK(resposta do server), lê o que o server mandou(cabeçalhos) e deleta seu próprio socket.
 
 - [!] Se for treinar a análise de scans(Firewall/logs), sembre-se sempre de 1° criar a regrar no firewall pra logar todo tráfego.
       me esqueci disso "'perdi tempo", mas ganhei aprendizado.
