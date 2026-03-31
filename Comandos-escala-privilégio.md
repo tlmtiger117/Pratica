@@ -32,8 +32,8 @@
      - diretório: "d"
      - arquivo padrão: "-"
      - arquivos especiais: "." vem antes do nome do arquivo.
-     - 
-- permissões         
+       
+- permissões:         
 
    - r (read/leitura): permite acessar um arquivo, mas não escrever e modificar.
    - w (write/escrita): permite acessar e escrever no arquivo
