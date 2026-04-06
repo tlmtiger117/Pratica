@@ -78,13 +78,13 @@
      
      
 - protocol 2.0(versão do protocolo SSH)
-  - versão do protocolo SSH
-  - segura e padrão atual
-  -  SSHv1 seria vulnerável
+   - versão do protocolo SSH
+   - segura e padrão atual
+   -  SSHv1 seria vulnerável
     
  
-Repositório mencionado:
-Nmap:[https://github.com/tlmtiger117/Nmap-Network-Mapper-]
+- Repositório mencionado:
+   - Nmap:[https://github.com/tlmtiger117/Nmap-Network-Mapper-]
 
 
 
